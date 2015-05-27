@@ -88,8 +88,8 @@ sessionInfo()
 <<demo1>>=
 set.seed(1)
 dat <- rbind(
-  rmvnorm(n=50,sigma=diag(3))
- ,rmvnorm(n=50,mean=c(4,4,4),sigma=diag(3))
+  rmvnorm(n=25,sigma=diag(3)*2)
+ ,rmvnorm(n=25,mean=c(4,4,4),sigma=diag(3)*2)
 )
 
 
